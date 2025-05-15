@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1F1E1F;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F1E1F;
+    position: sticky;
+    width: 100%;
+    padding: 20px 120px;
+    z-index: 3;
+    top: 0px;
+    border-bottom: 1px solid #ECE2D0;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 15px;
+}
+
+.nav-links li a {
+    position: relative;
+    font-family: 'Manrope', sans-serif;
+    color: #ECE2D0;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.6s ease;
+    font-weight: 200;
+}
+
+.nav-links li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 1px;
+    background-color: #ECE2D0;
+    transition: width 0.5s ease;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.nav-links li button {
+    font-family: 'Manrope', sans-serif;
+    background-color: #ffffff00;
+    color: #ECE2D0;
+    font-size: 16px;
+    padding: 15px 40px;
+    border: 1px solid #ECE2D0;
+    font-weight: 200;
+    border-radius: 5%;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li button:hover {
+    background-color: #ece2d02f;
+    cursor: pointer;
+}
+
+.nav-links li a.no-underline::after {
+    display: none;
+}
+
+.logo-container{
+    width: 70px;
+}
+
+.logo-container img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #F7FAEB;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 0px;
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.header-content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: #F7FAEB;
+    text-align: left;
+}
+
+.header-content h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.header-content h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.header-content button {
+    font-family: 'Manrope', sans-serif;
+    background-color: transparent;
+    color: #F7FAEB;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 12px 30px;
+    border: 1px solid #F7FAEB;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-content button:hover {
+    background-color: #ece2d02f;
+    cursor: pointer;
+}
