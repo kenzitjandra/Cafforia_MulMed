@@ -329,7 +329,7 @@ body{
   background-color: #1F1E1F;
   color: #ECE2D0;
   font-family: 'Manrope', sans-serif;
-  padding: 50px 40px 30px;
+  padding: 50px 0px 30px;
   border-top: 1px solid #ECE2D0;
   font-weight: 200;
 }
@@ -341,6 +341,7 @@ body{
   gap: 22%;
   max-width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .footer-logo {
@@ -407,4 +408,52 @@ body{
   font-size: 14px;
   border-top: 1px solid #ECE2D0;
   margin-top: 40px;
+}
+
+/* COFFEE VIDEO SECTION */
+
+.coffee-making {
+    background-color: #1F1E1F;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding: 120px 120px;
+}
+
+.coffee-making-img {
+    width: 300px;
+}
+
+.coffee-making-img img {
+    width: 100%;
+    height: auto;
+}
+
+.coffee-making-section {
+    color: #ECE2D0;
+    text-align: left;
+    width: 500px;
+}
+
+.coffee-making-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 2px;
+}
+
+.coffee-making-2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.coffee-making-section p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
 }
