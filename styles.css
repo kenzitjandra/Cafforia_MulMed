@@ -457,3 +457,144 @@ body{
     font-weight: 200;
     font-size: 15px;
 }
+
+/* AMERICANO HISTORY */
+.americano {
+    background-color: #1F1E1F;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding: 120px 120px;
+}
+
+.americano-img{
+    width: 400px;
+}
+
+.americano-img img {
+    width: 100%;
+    height: auto;
+}
+
+.americano-content {
+    color: #ECE2D0;
+    text-align: left;
+    width: 500px;
+}
+
+.americano-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 2px;
+}
+
+.americano-2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.americano-content p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+/* CAPPUCCINO HISTORY */
+.cappuccino {
+    background-color: #BBA58F;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding: 120px 120px;
+}
+
+.cappuccino-img{
+    width: 400px;
+}
+
+.cappuccino-img img {
+    width: 100%;
+    height: auto;
+}
+
+.cappuccino-content {
+    color: #582F0E;
+    text-align: left;
+    width: 500px;
+}
+
+.cappuccino-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 2px;
+}
+
+.cappuccino-2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.cappuccino-content p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+/* LATTE HISTORY */
+.latte {
+    background-color: #1F1E1F;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding: 120px 120px;
+}
+
+.latte-img{
+    width: 400px;
+}
+
+.latte-img img {
+    width: 100%;
+    height: auto;
+}
+
+.latte-content {
+    color: #ECE2D0;
+    text-align: left;
+    width: 500px;
+}
+
+.latte-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 2px;
+}
+
+.latte-2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.latte-content p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
