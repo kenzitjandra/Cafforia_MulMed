@@ -422,11 +422,15 @@ body{
     padding: 120px 120px;
 }
 
-.coffee-making-img {
+.coffee-making-video {
     width: 300px;
+    border: 1px solid #ECE2D0;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 12px;
 }
 
-.coffee-making-img img {
+.coffee-making-video source {
     width: 100%;
     height: auto;
 }
@@ -437,22 +441,32 @@ body{
     width: 500px;
 }
 
+.coffee-making-title {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 .coffee-making-1 {
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 52px;
-    margin-bottom: 2px;
 }
 
 .coffee-making-2 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 52px;
-    margin-bottom: 20px;
 }
 
-.coffee-making-section p {
+.coffee-making-subheader {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.coffee-making-desc {
     font-family: 'Manrope', sans-serif;
     font-weight: 200;
     font-size: 15px;
