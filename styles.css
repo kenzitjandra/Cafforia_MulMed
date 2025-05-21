@@ -175,7 +175,7 @@ body > *:not(.header, .navbar) {
 
 /* WELCOME SECTION */
 
-.content {
+.content-coffee {
     background-color: #1F1E1F;
     justify-content: center;
     gap: 80px;
@@ -235,6 +235,19 @@ body > *:not(.header, .navbar) {
     width: 100%;
     display: flex;
     padding: 120px 120px;
+}
+
+.video-intro-container {
+    width: 280px;
+    border: 1px solid #582F0E;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 12px;
+}
+
+.coffee-making-video source {
+    width: 100%;
+    height: auto;
 }
 
 .video-container {
