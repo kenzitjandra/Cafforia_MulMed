@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafforia | Home</title>
+    <title>Cafforia | Americano</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,16 +27,23 @@
         <div class="coffee-making-section">
             <p class="coffee-making-subheader">Coffee</p>
             <div class="coffee-making-title">
-                <span class="coffee-making-1">The </span>
-                <span class="coffee-making-2">Americano</span>
+                <p class="coffee-making-1" id="title-main">The </p>
+                <p class="coffee-making-2" id="title-sub">Americano</p>
             </div>
-            <p class="coffee-making-desc">A bold yet smooth brew, the Americano reveals rich espresso softened by the addition of hot water. Its depth reflects a heritage rooted in World War II, where soldiers sought a familiar, comforting taste. Each cup offers a clean, refined finish—an enduring classic for the true coffee purist.</p>
-            <a href=""><button>Next</button></a>
+            <p class="coffee-making-desc" id="coffee-desc">
+                A bold yet smooth brew, the Americano reveals rich espresso softened by the addition of hot water. Its depth reflects a heritage rooted in World War II, where soldiers sought a familiar, comforting taste. Each cup offers a clean, refined finish—an enduring classic for the true coffee purist.
+            </p>
+            <a class="navigation-buttons"><button id="next-button" style="display: none;">Next</button></a>
+
         </div>
-        <video class="coffee-making-video" controls>
-            <source src="../assets/video/americano/1.mp4" type="video/mp4">
+
+        <video id="video-step-1" class="coffee-making-video" controls>
+            <source src="../assets/video/3americano.mp4" type="video/mp4">
         </video>
 
+        <video id="video-step-2" class="coffee-making-video" controls style="display: none;">
+            <source src="../assets/video/4.mp4" type="video/mp4">
+        </video>
     </div>
 
     <footer class="footer">
@@ -76,6 +83,16 @@
         </div>
     </footer>
 
-
+    <script src="../script.js"></script>
+    <script>
+        setupCoffeePageVideoFlow('video-step-1', 'video-step-2', 'next-button', {
+            titleSelector: '#title-main',
+            subtitleSelector: '#title-sub',
+            descriptionSelector: '#coffee-desc',
+            newTitle: 'Your Journey',
+            newSubtitle: 'Ends with a Sip',
+            newDescription: "You've explored the craft, aroma, and tradition behind each brew. In this final sip, may you find the warmth, richness, and soul that make coffee not just a beverage, but an experience."
+        });
+    </script>
 </body>
 </html>

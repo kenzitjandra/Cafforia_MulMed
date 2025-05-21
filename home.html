@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar" id="navbar">
         <div class="logo-container">
             <img src="assets/logo.png" alt="">
         </div>
@@ -19,7 +19,7 @@
             <li><a href="coffee.html">Coffee</a></li>
             <li><a href="history.html">History</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="" class="no-underline"><button>Explore</button></a></li>
+            <li><a href="#video-header" class="no-underline"><button>Explore</button></a></li>
         </ul>
     </div>
 
@@ -28,29 +28,30 @@
         <div class="header-content">
             <h2>Unveiling the</h2>
             <h1>Art of Coffee</h1>
-            <a href=""><button>Explore</button></a>
+            <a href="#video-header"><button>Explore</button></a>
         </div>
     </div>
 
-    <div class="welcome">
-        <div class="welcome-img">
+    <div class="content">
+        <div class="content-img">
             <img src="assets/essencePicture.png" alt="Coffee Essence">
         </div>
-        <div class="welcome-content">
-            <div class="welcome-header">
-                <h2 class="welcome-1">Essence of</h2>
-                <h2 class="welcome-2">Coffee</h2>
+        <div class="content-content">
+            <div class="content-header">
+                <h2 class="content-1">Essence of</h2>
+                <h2 class="content-2">Coffee</h2>
                 <p>Welcome to the world of coffee—where every bean tells a story of rich heritage and exquisite flavor. Discover the art, the aroma, and the timeless allure of the perfect cup.</p>
             </div>
         </div>
     </div>
 
-    <div class="video-section">
+    <div class="video-section" id="video-header">
         <div class="video-content">
             <div class="video-header">
                 <h2 class="video-1">Mastering the</h2>
                 <h2 class="video-2">Brew</h2>
                 <p>Step into the world of artisanal coffee-making, where precision meets passion. From selecting the finest beans to mastering the perfect pour, our guide takes you on a sensory journey. One deliberate step at a time.</p>
+                <a href="coffee.html"><button>Discover More</button></a>
             </div>
         </div>
         <div class="video-container">
@@ -64,21 +65,21 @@
             <span class="brew-text">Brew</span>
         </div>
         <div class="brew-options">
-            <a href="coffee_page/americano.html" class="brew-link" target="_blank" rel="noopener">
+            <a href="coffee_page/americano.html" class="brew-link" rel="noopener">
             <div class="brew-card">
                 <img src="assets/espresso.png" alt="Espresso">
                 <p class="brew-name">Americano</p>
             </div>
             </a>
 
-            <a href="coffee_page/cappuccino.html" class="brew-link" target="_blank" rel="noopener">
+            <a href="coffee_page/cappuccino.html" class="brew-link" rel="noopener">
             <div class="brew-card">
                 <img src="assets/cappuccino.png" alt="Cappuccino">
                 <p class="brew-name">Cappuccino</p>
             </div>
             </a>
 
-            <a href="coffee_page/latte.html" class="brew-link" target="_blank" rel="noopener">
+            <a href="coffee_page/latte.html" class="brew-link" rel="noopener">
             <div class="brew-card">
                 <img src="assets/latte.png" alt="Latte">
                 <p class="brew-name">Latte</p>
@@ -124,6 +125,7 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 
 </body>
 </html>

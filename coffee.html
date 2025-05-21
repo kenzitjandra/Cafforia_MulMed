@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafforia | Home</title>
+    <title>Cafforia | Coffee</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,38 +19,26 @@
             <li><a href="coffee.html">Coffee</a></li>
             <li><a href="history.html">History</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="" class="no-underline"><button>Explore</button></a></li>
+            <li><a href="#video-header" class="no-underline"><button>Explore</button></a></li>
         </ul>
     </div>
 
-    <div class="brew-section">
-        <div class="brew-header">
-            <span class="choose-text">Choose your </span>
-            <span class="brew-text">Brew</span>
+    <div id="story-section" class="content">
+        <div class="content-content">
+            <div class="content-header">
+                <h2 id="story-title-1" class="content-1"></h2>
+                <h2 id="story-title-2" class="content-2"></h2>
+                <p id="story-text"></p>
+            </div>
+            <div id="story-buttons" class="navigation-buttons" style="display: none;">
+                <button id="prev-btn">Previous</button>
+                <button id="next-btn">Next</button>
+            </div>
         </div>
-        <div class="brew-options">
-            <a href="coffee_page/americano.html" class="brew-link" target="_blank" rel="noopener">
-            <div class="brew-card">
-                <img src="assets/espresso.png" alt="Espresso">
-                <p class="brew-name">Americano</p>
-            </div>
-            </a>
-
-            <a href="coffee_page/cappuccino.html" class="brew-link" target="_blank" rel="noopener">
-            <div class="brew-card">
-                <img src="assets/cappuccino.png" alt="Cappuccino">
-                <p class="brew-name">Cappuccino</p>
-            </div>
-            </a>
-
-            <a href="coffee_page/latte.html" class="brew-link" target="_blank" rel="noopener">
-            <div class="brew-card">
-                <img src="assets/latte.png" alt="Latte">
-                <p class="brew-name">Latte</p>
-            </div>
-            </a>
+        <div class="content-holder" id="media-container">
         </div>
     </div>
+
 
     <footer class="footer">
         <div class="footer-container">
@@ -89,6 +77,7 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 
 </body>
 </html>

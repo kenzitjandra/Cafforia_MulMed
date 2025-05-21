@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafforia | Cappuccino</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="../assets/logo.png" alt="">
+        </div>
+        <ul class="nav-links">
+            <li><a href="../home.html">Home</a></li>
+            <li><a href="../coffee.html">Coffee</a></li>
+            <li><a href="../history.html">History</a></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="" class="no-underline"><button>Explore</button></a></li>
+        </ul>
+    </div>
+
+    <div class="coffee-making">
+        <div class="coffee-making-section">
+            <p class="coffee-making-subheader">Coffee</p>
+            <div class="coffee-making-title">
+                <p class="coffee-making-1" id="title-main">The </p>
+                <p class="coffee-making-2" id="title-sub">Cappuccino</p>
+            </div>
+            <p class="coffee-making-desc" id="coffee-desc">
+                A delicate yet indulgent brew, the Cappuccino harmonizes bold espresso with velvety steamed milk and a crown of airy foam. Its origins trace back to 17th-century Europe, inspired by the Capuchin monks' distinctive robes. Each cup delivers a rich, smooth texture—an elegant classic for those who savor coffee with a touch of luxury.
+            </p>
+            <a class="navigation-buttons"><button id="next-button" style="display: none;">Next</button></a>
+
+        </div>
+
+        <video id="video-step-1" class="coffee-making-video" controls>
+            <source src="../assets/video/3cap.mp4" type="video/mp4">
+        </video>
+
+        <video id="video-step-2" class="coffee-making-video" controls style="display: none;">
+            <source src="../assets/video/4.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+            <img src="../assets/logo.png" alt="Cafforia Logo" class="footer-logo" />
+            <p class="footer-description">
+                Cafforia empowers coffee enthusiasts by offering expert-guided tutorials
+                on brewing techniques, from classic espresso to specialty pour-overs.
+            </p>
+            </div>
+
+            <div class="footer-nav">
+            <h4 class="footer-title">Navigation</h4>
+            <ul>
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="../coffee.html">Coffee</a></li>
+                <li><a href="../history.html">History</a></li>
+                <li><a href="../about.html">About Us</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-contact">
+            <h4 class="footer-title">Contact Us</h4>
+            <p>LeGrinder@gmail.com</p>
+            <p>+62 894 3849 8439</p>
+            <div class="footer-socials">
+                <a href="#"><img src="../assets/youtube-icon.png" alt="YouTube" /></a>
+                <a href="#"><img src="../assets/instagram-icon.png" alt="Instagram" /></a>
+            </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>© LeGrinder 2025, All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        setupCoffeePageVideoFlow('video-step-1', 'video-step-2', 'next-button', {
+            titleSelector: '#title-main',
+            subtitleSelector: '#title-sub',
+            descriptionSelector: '#coffee-desc',
+            newTitle: 'Your Journey',
+            newSubtitle: 'Ends with a Sip',
+            newDescription: "You've explored the craft, aroma, and tradition behind each brew. In this final sip, may you find the warmth, richness, and soul that make coffee not just a beverage, but an experience."
+        });
+    </script>
+</body>
+</html>
