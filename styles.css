@@ -890,3 +890,12 @@ body > *:not(.header, .navbar) {
     margin-top: 10px;
     color: #ECE2D0;
 }
+
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
