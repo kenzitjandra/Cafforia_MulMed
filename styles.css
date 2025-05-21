@@ -128,7 +128,14 @@ body > *:not(.header, .navbar) {
 }
 
 .content {
-  margin-top: 100vh;
+    margin-top: 100vh;
+    background-color: #1F1E1F;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding: 120px 120px;
 }
 
 .header-content {
