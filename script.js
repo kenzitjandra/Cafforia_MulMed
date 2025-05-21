@@ -3,14 +3,14 @@ const storyData = [
         title1: "The World of",
         title2: "Coffee",
         text: "This introductory video invites you into the essence of coffee—its origins, its aroma, and the subtle magic in every brew. From hand-picked beans to the first warm sip, discover how coffee connects people, moments, and memories. (Watch until the end to unlock the next step)",
-        media: "<div class='content-img'><video id='story-video' width='100%' controls><source src='../assets/video/1.mp4' type='video/mp4'></video></div>",
+        media: "<div class='content-img'><video id='story-video' width='100%' controls><source src='assets/video/1.mp4' type='video/mp4'></video></div>",
         showNextAfterVideo: true
     },
     {
         title1: "Brew the Perfect",
         title2: "Cup",
         text: "Now let's explore how to make your own brew...",
-        media: "<div class='content-img'><video id='story-video' width='100%' controls><source src='../assets/video/2.mp4' type='video/mp4'></video></div>",
+        media: "<div class='content-img'><video id='story-video' width='100%' controls><source src='assets/video/2.mp4' type='video/mp4'></video></div>",
         showNextAfterVideo: true
     },
     {
